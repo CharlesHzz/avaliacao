@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela De Avaliação</title>
+</head>
+<body>
+
+    <div class="cardNota">
+        <div class="estrela">
+            <img src="images/icon-star.svg" alt="" srcset="">
+        </div>
+        <h1>Como nos saímos?</h1>
+        <p>Informe-nos como nos saímos com sua solicitação de suporte. Todos os comentários são apreciados
+            para nos ajudar a melhorar nossa oferta!</p>
+        
+        <div class="notas">
+            <button id="botao1" onclick="saveNumber(1)">1</button>
+            <button id="botao2" onclick="saveNumber(2)">2</button>
+            <button id="botao3" onclick="saveNumber(3)">3</button>
+            <button id="botao4" onclick="saveNumber(4)">4</button>
+            <button id="botao5" onclick="saveNumber(5)">5</button>
+        </div>
+        <div class="enviar">
+            <button id="enviar">E N V I A R</button>
+        </div>
+    </div>
+
+    <div class="notaEnviada">
+        <div class="imgConfirm">
+            <img src="images/illustration-thank-you.svg" alt="Obrigado-Pelo-Feedback">
+        </div>
+
+        <div class="notaSelecionada">
+            <p>Você  selecionou X de 5</p>
+        </div>
+        <h1>Obrigado!</h1>
+        <div class="textConfirm">
+            <p>Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte,
+                não hesite em entrar em contato!</p>
+        </div>
+    </div>
+    
+
+<script src="script/script.js"></script>
+</body>
+</html>

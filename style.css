@@ -1,0 +1,152 @@
+:root{
+    --cor1:#FFFFFF;
+    --cor2:#959EAC;
+    --cor3:#7C8798;
+    --cor4:#252D37;
+    --cor5:#121417;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background-color: #1C1E21;
+}
+
+.cardNota{
+    color: 	#FFFFFF;
+    padding: 20px;
+    width: 450px;
+    height: 500px;
+    background: rgb(28,30,33);
+    background: linear-gradient(350deg, rgba(28,30,33,1) 0%, rgba(37,45,55,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 14%;
+    left: 33%;
+    border-radius: 30px;
+    border: 1px solid #2c2d2e;
+}
+.estrela{
+    background: rgb(28,30,33);
+    background: linear-gradient(350deg, rgba(28,30,33,1) 0%, rgba(37,45,55,1) 100%);
+    border: 1px solid #1C1E21;
+    padding: 10px;
+    border-radius: 100px;
+    top: -15%;
+    left: -40%;
+    position: relative;
+}
+.estrela img{
+    width: 30px;
+}
+
+.cardNota h1{
+    font-weight: 700;
+    top: -35px;
+    left: -55px;
+    position: relative;
+}
+.cardNota p{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 60px;
+    color:#959EAC;
+    line-height: 23px;
+}
+.notas button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #1C1E21;
+    border: 1px solid #959EAC;
+    margin-right: 8px;
+    color: #959EAC;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.notas button:hover{
+    background-color: #959EAC;
+    color: #FFFFFF;
+}
+.notas button.selected{
+    background-color: #FB7413;
+    color: #fff;
+}
+.enviar button{
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: #FB7413;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.enviar button:hover{
+    background-color: #fff;
+    color: #FB7413;
+    cursor: pointer;
+}
+
+
+
+
+
+.notaEnviada{
+    color: 	#FFFFFF;
+    padding: 20px;
+    width: 450px;
+    height: 500px;
+    background: rgb(28,30,33);
+    background: linear-gradient(350deg, rgba(28,30,33,1) 0%, rgba(37,45,55,1) 100%);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 14%;
+    left: 33%;
+    border-radius: 30px;
+    border: 1px solid #2c2d2e;
+}
+.notaEnviada h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgConfirm{
+    top: -56px;
+    position: relative;
+}
+.notaSelecionada{
+    position: relative;
+    top: -30px;
+    background-color: #252D37;
+    width: 250px;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FB7413;
+}
+.textConfirm{
+    width: 400px;
+    line-height: 23px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #959EAC;
+}
